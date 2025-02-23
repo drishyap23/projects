@@ -16,4 +16,4 @@ SELECT * FROM Employees WHERE Salary > 50000;
 SELECT * FROM Employees WHERE Department = 'IT' AND Salary > 60000;
 SELECT Name, Salary, Salary * 1.10 AS UpdatedSalary FROM Employees;
 SELECT * FROM Employees WHERE Name LIKE 'A%';
-SELECT * FROM Employees WHERE Deparrtment IN ('HR', 'Finance');    
+SELECT * FROM Employees WHERE Department IN ('HR', 'Finance');    
